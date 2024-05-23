@@ -1,10 +1,10 @@
 
 
-<button mat-button color="primary" (click)="getAllApprovedata()">Get All Approve Data</button>
+<button mat-button color="primary" (click)="getAllApprovedata()"> All Approve Data</button>
 
+<!-- <p><a lass="link-warning" (click)="getAllApprovedata()">Get All Approve Data</a></p> -->
 
-
-<table class="table table-secondary">
+<table class="table table-warning table-striped-columns">
     <tr *ngIf="allApproveData !=null">
         <th>Index No</th>
         <th>bankId No</th>
@@ -43,9 +43,9 @@
 </table> 
 
 
-<button mat-button color="primary" (click)="getAllPendingData()">Get All Pending Data</button>
+<button mat-button color="primary" (click)="getAllPendingData()">All Pending Data</button>
 
-<table class="table table-striped-columns">
+<table class="table table-warning table-striped-columns">
     <tr *ngIf="allPendingData !=null">
         <th>Index No</th>
         <th>bankId No</th>
@@ -84,4 +84,3 @@
     </tr>
 </table>  
 
-<button type="button" class="btn btn-dark">Dark</button>
